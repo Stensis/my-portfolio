@@ -1,0 +1,44 @@
+/* Services Container */
+.services-container {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.test-item {
+    width: 20rem;
+    margin: 0 2rem;
+    background: hsl(309, 62%, 49%);
+    
+    border: 5px dashed #D0A8F4;
+    border-radius: 1.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: all .5s;
+}
+
+.test-item:hover {
+    /* background-color: transparent; */
+    background: #8351DF;
+}
+
+.test-item img {
+    margin-bottom: 1.3rem;
+    width: 80%;
+}
+
+.test-item h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.services li .fa-solid {
+    font-size: 2rem;
+    color: rgb(108, 51, 51);
+    margin-bottom: 1.3rem;
+}
+
+.test-item p {
+    line-height: 20px;
+    font-size: .9rem;
+}
